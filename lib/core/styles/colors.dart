@@ -1,0 +1,10 @@
+import 'package:flutter/painting.dart';
+
+abstract class AppColors {
+  static const Color primaryColor = Color(0xff53B175);
+  static const Color backgroundcolor = Color(0xffFFFFFF);
+  static const Color accentcolor = Color(0xffF0F1F2);
+  static const Color textcolor = Color(0xff7C7C7C);
+  static const Color tangocolor = Color(0xffF37A20);
+  static const Color blackcolor = Color(0xff37474F);
+}
