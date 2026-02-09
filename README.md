@@ -1,6 +1,6 @@
 # GreenMart
 
-This an green mart app contain two pages, The first page contain the name of the application ,and is delayed 2 seconds to take you to the second page ,that is an welcomed page 
+Green Mart is a simple Flutter application that introduces users to the app through a clean welcome screen displaying the app name and logo, followed by a “Get Started” screen to begin the experience.
 
 ## 🖼️ Screenshots
 
