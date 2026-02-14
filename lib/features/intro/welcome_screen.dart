@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:greenmart/core/constants/app_images.dart';
+import 'package:greenmart/core/functions/navigation.dart';
 import 'package:greenmart/core/styles/colors.dart';
 import 'package:greenmart/core/styles/text_style.dart';
 import 'package:greenmart/core/widgets/mian_button.dart';
+import 'package:greenmart/features/pages/login_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -43,12 +45,17 @@ class WelcomeScreen extends StatelessWidget {
                   SizedBox(height: 15),
                   Text(
                     'Ger your groceries in as fast as one hour',
-                    style: TextStyles.button.copyWith(
+                    style: TextStyles.caption1.copyWith(
                       color: AppColors.backgroundcolor,
                     ),
                   ),
                   SizedBox(height: 35.8),
-                  MianButton(text: 'Get Started', onPressed: () {}),
+                  MianButton(
+                    text: 'Get Started',
+                    onPressed: () {
+                      pushReplacement(context, LoginScreen());
+                    },
+                  ),
                 ],
               ),
             ),
