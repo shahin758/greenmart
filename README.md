@@ -2,10 +2,10 @@
 
 Green Mart is a simple Flutter application that introduces users to the app through a clean welcome screen displaying the app name and logo, followed by a “Get Started” screen to begin the experience,
 # Second Commit for GreeNMart :
-(1) making the logscreen with validation for email and password and get the (REGEX) for email and phone number
-(2) making SignUp screen and make the login text to be clickable to take you back to the logscreen 
-(3) mobile number screen with validation for mobile number with the Regex of Egyptian monule number 
-(4) OTP screen and make the TEXT change mobile number (clickable) to take tou back to the screen mobile number to change it if it wrong
+- (1) making the logscreen with validation for email and password and get the (REGEX) for email and phone number
+- (2) making SignUp screen and make the login text to be clickable to take you back to the logscreen 
+- (3) mobile number screen with validation for mobile number with the Regex of Egyptian monule number 
+- (4) OTP screen and make the TEXT change mobile number (clickable) to take tou back to the screen mobile number to change it if it wrong
 
 ## 🖼️ Screenshots
 
