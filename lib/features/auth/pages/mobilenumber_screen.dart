@@ -5,7 +5,7 @@ import 'package:greenmart/core/styles/colors.dart';
 import 'package:greenmart/core/styles/text_style.dart';
 import 'package:greenmart/core/widgets/mian_button.dart';
 //import 'package:greenmart/features/pages/signup_screen.dart';
-import 'package:greenmart/features/pages/verification_screen.dart';
+import 'package:greenmart/features/auth/pages/verification_screen.dart';
 
 class MobilenumberScreen extends StatefulWidget {
   const MobilenumberScreen({super.key});

@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:greenmart/core/functions/navigation.dart';
 import 'package:greenmart/core/styles/colors.dart';
 import 'package:greenmart/core/styles/text_style.dart';
-import 'package:greenmart/features/pages/mobilenumber_screen.dart';
+import 'package:greenmart/features/auth/pages/mobilenumber_screen.dart';
+import 'package:greenmart/features/pages/home_screen.dart';
 import 'package:pinput/pinput.dart';
 
 class VerificationScreen extends StatelessWidget {
@@ -86,7 +87,9 @@ class VerificationScreen extends StatelessWidget {
               width: double.infinity,
               height: 63,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  pushReplacement(context, HomeScreen());
+                },
 
                 child: Text("Confirm", style: TextStyles.caption1),
               ),

@@ -8,4 +8,6 @@ abstract class AppColors {
   static const Color tangocolor = Color(0xffF37A20);
   static const Color blackcolor = Color(0xff37474F);
   static const Color blackmediumcolor = Color(0xff37474F);
+  static const Color divider = Color(0xffE2E2E2);
+  static const Color productdetails = Color(0xfff2f3f2);
 }

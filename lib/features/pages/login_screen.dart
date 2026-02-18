@@ -8,6 +8,7 @@ import 'package:greenmart/core/styles/text_style.dart';
 import 'package:greenmart/core/widgets/custome_text_form_field.dart';
 import 'package:greenmart/core/widgets/mian_button.dart';
 import 'package:greenmart/core/widgets/password_text_form_field.dart';
+import 'package:greenmart/features/main/main_app_screen.dart';
 import 'package:greenmart/features/pages/signup_screen.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -101,7 +102,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   MianButton(
                     text: 'Login',
                     onPressed: () {
-                      if (formKey.currentState!.validate()) {}
+                      if (formKey.currentState!.validate()) {
+                        pushTo(context, MainAppScreen());
+                      }
                     },
                   ),
                   const SizedBox(height: 10),

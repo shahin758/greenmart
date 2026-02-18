@@ -8,7 +8,7 @@ import 'package:greenmart/core/widgets/custome_text_form_field.dart';
 import 'package:greenmart/core/widgets/mian_button.dart';
 import 'package:greenmart/core/widgets/password_text_form_field.dart';
 import 'package:greenmart/features/pages/login_screen.dart';
-import 'package:greenmart/features/pages/mobilenumber_screen.dart';
+import 'package:greenmart/features/auth/pages/mobilenumber_screen.dart';
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});
