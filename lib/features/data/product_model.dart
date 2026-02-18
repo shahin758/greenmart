@@ -132,7 +132,7 @@ List<ProductModel> bestSelling = [
     image:
         'https://media.istockphoto.com/id/1388403435/photo/fresh-carrots-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=XmrTb_nASc7d-4zVKUz0leeTT4fibDzWi_GpIun0Tlc=',
   ),
-   ProductModel(
+  ProductModel(
     id: '8',
     tagKey: UniqueKey().toString(),
     name: 'AVOCADOS',
@@ -142,39 +142,64 @@ List<ProductModel> bestSelling = [
   ),
 ];
 
-
-
 class AllProductModel {
   final String id;
   final String name;
   final String image;
+  //final String tagKey;
 
   AllProductModel({
     required this.id,
     required this.name,
     required this.image,
+    // required this.tagKey,
   });
 }
 
 List<AllProductModel> allproducts = [
-AllProductModel(
- id: '10',
- name: 'oil',
-image:'assets/images/oil.png'
-),
+  AllProductModel(
+    id: '10',
+    name: 'oil',
+    image:
+        'https://cdn.britannica.com/55/157155-050-D07F5610/Containers-olive-oil.jpg',
+  ),
 
-AllProductModel(
- id: '11',
- name: 'fruit',
-image:'assets/images/fruits.png',
-),
+  AllProductModel(
+    id: '11',
+    name: 'Fruits&Vegetable',
 
-AllProductModel(
- id: '12',
- name: 'bavarege',
-image:'assets/images/bavarege.png',
-),
+    image:
+        'https://img.freepik.com/free-photo/colorful-fruits-tasty-fresh-ripe-juicy-white-desk_179666-169.jpg?semt=ais_user_personalization&w=740&q=80',
+  ),
 
+  AllProductModel(
+    id: '12',
+    name: 'Beverages',
 
+    image:
+        'https://tandobeverage.com/wp-content/uploads/2021/05/beverage-industry-overview-reports.jpg',
+  ),
+
+  AllProductModel(
+    id: '13',
+    name: 'Bakery & Snacks',
+    image:
+        'https://img.freepik.com/free-photo/set-bakery-pastries-wooden-table_123827-31226.jpg?semt=ais_user_personalization&w=740&q=80',
+  ),
+
+  AllProductModel(
+    id: '14',
+    name: 'Meat&Fish',
+    image:
+        'https://img.freepik.com/premium-photo/beef-chicken-meat-fish-shrimps_82893-12085.jpg',
+  ),
+   AllProductModel(
+    id: '15',
+    name: 'Dairy & Eggs',
+    image:
+        'https://img.freepik.com/free-photo/close-up-dairy-products_23-2148610615.jpg?semt=ais_user_personalization&w=740&q=80',
+  ),
 ];
+
+
 

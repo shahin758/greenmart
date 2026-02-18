@@ -10,4 +10,6 @@ abstract class AppColors {
   static const Color blackmediumcolor = Color(0xff37474F);
   static const Color divider = Color(0xffE2E2E2);
   static const Color productdetails = Color(0xfff2f3f2);
+  static const Color cartcolor = Color(0xffeef8f2);
+  static const Color cartcolorborder = Color(0xff82c79b);
 }
