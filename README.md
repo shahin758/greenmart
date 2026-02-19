@@ -14,6 +14,7 @@ Green Mart is a simple Flutter application that introduces users to the app thro
 - (9) search screen to search from it and make it scrollable and made it with gridview
 - (10) cartscreen to see all the products you want to buy and made a butthon of checkout when you click it the bottom sheet appears and make it with list tile and make an placeorder button that takes youy to last page
 - (11) last page is confirm that your order has been accepted and make a button that navigate you to home
+- (12) last image is the changing the icon app and the name
 
 ## 🖼️ Screenshots
 
@@ -33,6 +34,7 @@ Green Mart is a simple Flutter application that introduces users to the app thro
 <img width="370" height="830" alt="Screenshot_1771437795" src="https://github.com/user-attachments/assets/3ca8d5ac-cc33-485d-a6d0-38165e0e32b5" />
 <img width="370" height="830" alt="BottomSheetScreen" src="https://github.com/user-attachments/assets/500947e3-0ca6-496b-9561-48005cb54617" />
 <img width="370" height="830" alt="orderaccept screen" src="https://github.com/user-attachments/assets/5bed02e3-2338-4178-9a27-1e52a4871244" />
+<img width="128" height="105" alt="Screenshot 2026-02-19 185509" src="https://github.com/user-attachments/assets/3fc16310-c6b0-48d2-8893-f0b50e864897" />
 
 
 
